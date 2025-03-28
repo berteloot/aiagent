@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Voice Agent</title>
+  <title>Centered Voice Agent</title>
   <style>
     body {
       margin: 0;
@@ -14,13 +14,16 @@
     }
 
     elevenlabs-convai {
+      all: unset;
+      display: block;
       width: 400px;
       max-width: 90%;
+      position: static !important;
     }
   </style>
 </head>
 <body>
-  <elevenlabs-convai agent-id="HjeST61xIPARGmRtbDHS"></elevenlabs-convai>
+  <elevenlabs-convai agent-id="HjeST61xIPARGmRtbDHS" mode="embedded"></elevenlabs-convai>
   <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
 </body>
 </html>
